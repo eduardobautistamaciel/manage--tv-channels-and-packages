@@ -1,0 +1,60 @@
+C:\Users\csb16\Desktop\Obligatorio1 P2\Obligatorio1 P2\Dominio\bin\Debug\Dominio.dll
+C:\Users\csb16\Desktop\Obligatorio1 P2\Obligatorio1 P2\Dominio\bin\Debug\Dominio.pdb
+C:\Users\csb16\Desktop\Obligatorio1 P2\Obligatorio1 P2\Dominio\obj\Debug\Dominio.csprojAssemblyReference.cache
+C:\Users\csb16\Desktop\Obligatorio1 P2\Obligatorio1 P2\Dominio\obj\Debug\Dominio.csproj.CoreCompileInputs.cache
+C:\Users\csb16\Desktop\Obligatorio1 P2\Obligatorio1 P2\Dominio\obj\Debug\Dominio.dll
+C:\Users\csb16\Desktop\Obligatorio1 P2\Obligatorio1 P2\Dominio\obj\Debug\Dominio.pdb
+C:\Users\csb16\OneDrive\Analista programador\Segundo semestre\Programacion 2\Obligatorio 1\Obligatorio1 P2\Dominio\obj\Debug\Dominio.csprojAssemblyReference.cache
+C:\Users\csb16\OneDrive\Analista programador\Segundo semestre\Programacion 2\Obligatorio 1\Obligatorio1 P2\Dominio\obj\Debug\Dominio.csproj.CoreCompileInputs.cache
+C:\Users\csb16\OneDrive\Analista programador\Segundo semestre\Programacion 2\Obligatorio 1\Obligatorio1 P2\Dominio\obj\Debug\Dominio.dll
+C:\Users\csb16\OneDrive\Analista programador\Segundo semestre\Programacion 2\Obligatorio 1\Obligatorio1 P2\Dominio\obj\Debug\Dominio.pdb
+C:\Users\csb16\OneDrive\Analista programador\Segundo semestre\Programacion 2\Obligatorio 1\Obligatorio1 P2\Dominio\bin\Debug\Dominio.dll
+C:\Users\csb16\OneDrive\Analista programador\Segundo semestre\Programacion 2\Obligatorio 1\Obligatorio1 P2\Dominio\bin\Debug\Dominio.pdb
+C:\Users\eduar\Desktop\Obligatorio1 P2\Dominio\bin\Debug\Dominio.dll
+C:\Users\eduar\Desktop\Obligatorio1 P2\Dominio\bin\Debug\Dominio.pdb
+C:\Users\eduar\Desktop\Obligatorio1 P2\Dominio\obj\Debug\Dominio.csprojAssemblyReference.cache
+C:\Users\eduar\Desktop\Obligatorio1 P2\Dominio\obj\Debug\Dominio.csproj.CoreCompileInputs.cache
+C:\Users\eduar\Desktop\Obligatorio1 P2\Dominio\obj\Debug\Dominio.dll
+C:\Users\eduar\Desktop\Obligatorio1 P2\Dominio\obj\Debug\Dominio.pdb
+C:\Users\csb16\Downloads\Archivos Obligatorio1 P2\Archivos Obligatorio1 P2\Obligatorio1 P2\Dominio\bin\Debug\Dominio.dll
+C:\Users\csb16\Downloads\Archivos Obligatorio1 P2\Archivos Obligatorio1 P2\Obligatorio1 P2\Dominio\bin\Debug\Dominio.pdb
+C:\Users\csb16\Downloads\Archivos Obligatorio1 P2\Archivos Obligatorio1 P2\Obligatorio1 P2\Dominio\obj\Debug\Dominio.csprojAssemblyReference.cache
+C:\Users\csb16\Downloads\Archivos Obligatorio1 P2\Archivos Obligatorio1 P2\Obligatorio1 P2\Dominio\obj\Debug\Dominio.csproj.CoreCompileInputs.cache
+C:\Users\csb16\Downloads\Archivos Obligatorio1 P2\Archivos Obligatorio1 P2\Obligatorio1 P2\Dominio\obj\Debug\Dominio.dll
+C:\Users\csb16\Downloads\Archivos Obligatorio1 P2\Archivos Obligatorio1 P2\Obligatorio1 P2\Dominio\obj\Debug\Dominio.pdb
+C:\Users\csb16\OneDrive\Analista programador\Segundo semestre\Programacion 2\Obligatorio 1\Archivos Finales!\Obligatorio1 P2\Dominio\obj\Debug\Dominio.csprojAssemblyReference.cache
+C:\Users\csb16\OneDrive\Analista programador\Segundo semestre\Programacion 2\Obligatorio 1\Archivos Finales!\Obligatorio1 P2\Dominio\obj\Debug\Dominio.csproj.CoreCompileInputs.cache
+C:\Users\csb16\OneDrive\Analista programador\Segundo semestre\Programacion 2\Obligatorio 1\Archivos Finales!\Obligatorio1 P2\Dominio\obj\Debug\Dominio.dll
+C:\Users\csb16\OneDrive\Analista programador\Segundo semestre\Programacion 2\Obligatorio 1\Archivos Finales!\Obligatorio1 P2\Dominio\obj\Debug\Dominio.pdb
+C:\Users\csb16\OneDrive\Analista programador\Segundo semestre\Programacion 2\Obligatorio 1\Archivos Finales!\Obligatorio1 P2\Dominio\bin\Debug\Dominio.dll
+C:\Users\csb16\OneDrive\Analista programador\Segundo semestre\Programacion 2\Obligatorio 1\Archivos Finales!\Obligatorio1 P2\Dominio\bin\Debug\Dominio.pdb
+C:\Users\csb16\OneDrive\Analista programador\Segundo semestre\Programacion 2\Obligatorio 2\Obligatorio2\Dominio\bin\Debug\Dominio.dll
+C:\Users\csb16\OneDrive\Analista programador\Segundo semestre\Programacion 2\Obligatorio 2\Obligatorio2\Dominio\bin\Debug\Dominio.pdb
+C:\Users\csb16\OneDrive\Analista programador\Segundo semestre\Programacion 2\Obligatorio 2\Obligatorio2\Dominio\obj\Debug\Dominio.csprojAssemblyReference.cache
+C:\Users\csb16\OneDrive\Analista programador\Segundo semestre\Programacion 2\Obligatorio 2\Obligatorio2\Dominio\obj\Debug\Dominio.csproj.CoreCompileInputs.cache
+C:\Users\csb16\OneDrive\Analista programador\Segundo semestre\Programacion 2\Obligatorio 2\Obligatorio2\Dominio\obj\Debug\Dominio.dll
+C:\Users\csb16\OneDrive\Analista programador\Segundo semestre\Programacion 2\Obligatorio 2\Obligatorio2\Dominio\obj\Debug\Dominio.pdb
+C:\Users\eduar\Desktop\Obligatorio2\Dominio\bin\Debug\Dominio.dll
+C:\Users\eduar\Desktop\Obligatorio2\Dominio\bin\Debug\Dominio.pdb
+C:\Users\eduar\Desktop\Obligatorio2\Dominio\obj\Debug\Dominio.csprojAssemblyReference.cache
+C:\Users\eduar\Desktop\Obligatorio2\Dominio\obj\Debug\Dominio.csproj.CoreCompileInputs.cache
+C:\Users\eduar\Desktop\Obligatorio2\Dominio\obj\Debug\Dominio.dll
+C:\Users\eduar\Desktop\Obligatorio2\Dominio\obj\Debug\Dominio.pdb
+C:\Users\csb16\OneDrive\AP\2° semestre\P2\Obligatorio 2\Obligatorio2\Dominio\bin\Debug\Dominio.dll
+C:\Users\csb16\OneDrive\AP\2° semestre\P2\Obligatorio 2\Obligatorio2\Dominio\bin\Debug\Dominio.pdb
+C:\Users\csb16\OneDrive\AP\2° semestre\P2\Obligatorio 2\Obligatorio2\Dominio\obj\Debug\Dominio.csprojAssemblyReference.cache
+C:\Users\csb16\OneDrive\AP\2° semestre\P2\Obligatorio 2\Obligatorio2\Dominio\obj\Debug\Dominio.csproj.CoreCompileInputs.cache
+C:\Users\csb16\OneDrive\AP\2° semestre\P2\Obligatorio 2\Obligatorio2\Dominio\obj\Debug\Dominio.dll
+C:\Users\csb16\OneDrive\AP\2° semestre\P2\Obligatorio 2\Obligatorio2\Dominio\obj\Debug\Dominio.pdb
+C:\Users\csb16\Downloads\Obligatorio2\Obligatorio2\Dominio\bin\Debug\Dominio.dll
+C:\Users\csb16\Downloads\Obligatorio2\Obligatorio2\Dominio\bin\Debug\Dominio.pdb
+C:\Users\csb16\Downloads\Obligatorio2\Obligatorio2\Dominio\obj\Debug\Dominio.csprojAssemblyReference.cache
+C:\Users\csb16\Downloads\Obligatorio2\Obligatorio2\Dominio\obj\Debug\Dominio.csproj.CoreCompileInputs.cache
+C:\Users\csb16\Downloads\Obligatorio2\Obligatorio2\Dominio\obj\Debug\Dominio.dll
+C:\Users\csb16\Downloads\Obligatorio2\Obligatorio2\Dominio\obj\Debug\Dominio.pdb
+C:\Users\csb16\OneDrive\AP\2° semestre\P2\Obligatorio 2\Obligatorio2\Obligatorio2\Dominio\bin\Debug\Dominio.dll
+C:\Users\csb16\OneDrive\AP\2° semestre\P2\Obligatorio 2\Obligatorio2\Obligatorio2\Dominio\bin\Debug\Dominio.pdb
+C:\Users\csb16\OneDrive\AP\2° semestre\P2\Obligatorio 2\Obligatorio2\Obligatorio2\Dominio\obj\Debug\Dominio.csprojAssemblyReference.cache
+C:\Users\csb16\OneDrive\AP\2° semestre\P2\Obligatorio 2\Obligatorio2\Obligatorio2\Dominio\obj\Debug\Dominio.csproj.CoreCompileInputs.cache
+C:\Users\csb16\OneDrive\AP\2° semestre\P2\Obligatorio 2\Obligatorio2\Obligatorio2\Dominio\obj\Debug\Dominio.dll
+C:\Users\csb16\OneDrive\AP\2° semestre\P2\Obligatorio 2\Obligatorio2\Obligatorio2\Dominio\obj\Debug\Dominio.pdb

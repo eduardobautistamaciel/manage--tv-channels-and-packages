@@ -1,0 +1,63 @@
+﻿@using Dominio
+@model Compra
+@{
+    ViewBag.Title = "ComprarPaquete";
+}
+
+<h2>ComprarPaquete</h2>
+
+<div style="padding:16px">
+
+    @if (ViewBag.Mensaje != null)
+    {
+        <div class="alert alert-danger">
+            ViewBag.Mensaje
+        </div>
+    }
+
+    @if (ViewBag.Msj != null)
+    {
+        <div class="alert alert-success">
+            @ViewBag.Msj
+        </div>
+    }
+
+    <table class="table">
+        <thead class="thead-dark">
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Paquete</th>
+                <th scope="col">Promocion</th>
+                <th scope="col">Precio</th>
+                <th scope="col">Canales</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>@ViewBag.Paquete.Id</td>
+                <td> @ViewBag.Paquete.Nombre</td>
+                <td> @ViewBag.Paquete.Promocion</td>
+                <td> @ViewBag.Paquete.PrecioBase</td>
+                <td>
+                    @foreach (Canal unC in @ViewBag.Paquete.Canal)
+                    {
+                        <P>@unC.Nombre </P>
+                    }
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <form id="formulario" action="/paquete/ComprarPaquete" method="post">
+
+        <input type="hidden" name="cedula" value=@Session["LogueadoCedula"] />
+
+        <input type="hidden" name="id" value=@ViewBag.Paquete.Id />
+
+        <button id="submit" class="btn btn-success" style="margin:5px">Comprar</button>
+    </form>
+
+    <form action="/paquete/index">
+        <button class="btn btn-secondary" style="margin:5px" type="submit">Volver</button>
+    </form>
+
+</div>

@@ -1,0 +1,42 @@
+﻿@using Dominio
+@{
+    ViewBag.Title = "VerCompras";
+}
+
+<h2>Ver Compras</h2>
+
+<div style="padding:16px">
+    <table class="table">
+        <thead class="thead-dark">
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Paquete</th>
+                <th scope="col">Precio</th>
+                <th scope="col">Canales</th>
+            </tr>
+        </thead>
+        <tbody>
+
+            @foreach (Paquete unP in @ViewBag.paquetesComprados)
+            {
+            <tr>
+                <td>@unP.Id</td>
+                <td> @unP.Nombre</td>
+                <td> @unP.PrecioBase</td>
+                <td>
+                    @foreach (Canal unC in @unP.Canal)
+                    {
+                        <p>@unC.Nombre</p>
+                    }
+                </td>
+                <td><a href="/Paquete/CancelacionCompras?id=@unP.Id">Cancelar compra</a></td>
+            </tr>
+            }
+
+        </tbody>
+    </table>
+</div>
+
+<form action="/paquete/index">
+    <button class="btn btn-secondary" style="margin:5px" type="submit">Volver</button>
+</form>

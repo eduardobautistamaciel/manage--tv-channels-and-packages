@@ -1,0 +1,136 @@
+﻿@using Dominio
+@{
+    ViewBag.Title = "Operador";
+}
+
+
+<div style="padding:16px">
+    @if (ViewBag.Mensaje != null)
+    {
+        <div class="alert alert-danger">
+            @ViewBag.Mensaje
+        </div>
+    }
+    <h4>Operador</h4>
+
+    <button class="btn btn-primary" style="margin:5px" type="button" data-toggle="collapse" data-target="#collapse1" aria-expanded="false" aria-controls="collapse">
+        Ver compras por fecha
+    </button>
+
+    <div class="collapse" id="collapse1" style="margin:5px">
+        <form id="formulario" action="/usuario/ComprasPorFecha" method="post">
+            <input type="date" name="fecha1" />
+            <input type="date" name="fecha2" />
+            <button id="submit" class="btn btn-success" style="margin:5px">Buscar compras</button>
+        </form>
+    </div>
+
+
+    <form action="">
+        <button class="btn btn-primary" style="margin:5px" type="button" data-toggle="collapse" data-target="#collapse" aria-expanded="false" aria-controls="collapse">
+            Ver lista de todos los clientes
+        </button>
+    </form>
+
+    <div style="padding:16px" class="collapse" id="collapse">
+        <h2>Lista Clientes</h2>
+        <table class="table">
+            <thead class="thead-dark">
+                <tr>
+                    <th scope="col">Cedula</th>
+                    <th scope="col">Apellido</th>
+                    <th scope="col">Nombre</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                @foreach (Usuario unUs in ViewBag.usuarios)
+                {
+                    <tr>
+                        <td>@unUs.Cedula</td>
+                        <td>@unUs.Apellido </td>
+                        <td>@unUs.Nombre </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+
+    <h4>Estadisticas:</h4>
+    <button class="btn btn-primary" style="margin:5px" type="button" data-toggle="collapse" data-target="#collapse2" aria-expanded="false" aria-controls="collapse">
+        Dado el nombre de un canal obtener todos los paquetes que la incluyen
+    </button>
+
+    <div class="collapse" id="collapse2" style="margin:5px">
+        <input type="text" id="txtCanal" />
+        <button id="buttonCanal">Buscar</button>
+    </div>
+
+    <button class="btn btn-primary" style="margin:5px" type="button" data-toggle="collapse" data-target="#collapse4" aria-expanded="false" aria-controls="collapse">
+        Obtener lista de clientes que tengan compras cuyo vencimiento sea en los próximos 30 días o menos
+    </button>
+
+    <div style="padding:16px" class="collapse" id="collapse4">
+        <h2>Lista Clientes</h2>
+        <table class="table">
+            <thead class="thead-dark">
+                <tr>
+                    <th scope="col">Cedula</th>
+                    <th scope="col">Nombre</th>
+                    <th scope="col">Apellido</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                @foreach (Usuario unUs in ViewBag.comprasVencen)
+                {
+                <tr>
+                    <td>@unUs.Cedula</td>
+                    <td>@unUs.Nombre</td>
+                    <td>@unUs.Apellido</td>
+                </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+
+    <button class="btn btn-primary" style="margin:5px" type="button" data-toggle="collapse" data-target="#collapse5" aria-expanded="false" aria-controls="collapse">
+        Obtener los paquetes de mayor valor. En caso de empate mostrar todos los empatados
+    </button>
+
+    <div style="padding:16px" class="collapse" id="collapse5">
+        <h2>Lista Paquetes mas caros</h2>
+        <table class="table">
+            <thead class="thead-dark">
+                <tr>
+                    <th scope="col">Id</th>
+                    <th scope="col">Nombre</th>
+                    <th scope="col">Precio</th>
+                    <th scope="col">Promocion</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                @foreach (Paquete unP in ViewBag.paqueteMasCaro)
+                {
+                    <tr>
+                        <td>@unP.Id</td>
+                        <td>@unP.Nombre </td>
+                        <td>@unP.PrecioBase </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+
+@section scripts{
+    <script>
+        let btnCanal = document.getElementById("buttonCanal")
+        let inputCanal = document.getElementById("txtCanal")
+
+        btnCanal.addEventListener("click", () => {
+            location = "/Usuario/BuscarCanal?nombre=" + inputCanal.value
+        })
+    </script>
+}

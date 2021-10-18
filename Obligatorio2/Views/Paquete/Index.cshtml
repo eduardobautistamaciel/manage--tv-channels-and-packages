@@ -1,0 +1,53 @@
+﻿@using Dominio
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Paquetes</h2>
+
+<div style="padding:16px">
+
+    @if (@ViewBag.Msj != null)
+    {
+        <div class="alert alert-success">
+            @ViewBag.Msj
+        </div>
+    }
+
+    @if (@ViewBag.Mensaje != null)
+    {
+        <div class="alert alert-danger">
+            @ViewBag.Mensaje
+        </div>
+    }
+
+    <table class="table">
+        <thead class="thead-dark">
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Paquete</th>
+                <th scope="col">Canales</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (Paquete unP in ViewBag.listaPaquetes)
+            {
+            <tr>
+                <th scope="row">@unP.Id</th>
+                <td>@unP.Nombre </td>
+                <td>
+                    @foreach (Canal unC in @unP.Canal)
+                    {
+                        <p>@unC.Nombre</p>
+                    }
+                </td>
+
+                @if (Session["Logueado"] != null && (string)Session["LogueadoRol"] != "Operador")
+                {
+                    <td><a href="/Paquete/ComprarPaquete?id=@unP.Id">Comprar paquete</a></td>
+                }
+            </tr>
+            }
+        </tbody>
+    </table>
+</div>

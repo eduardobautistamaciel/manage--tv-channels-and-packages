@@ -1,0 +1,38 @@
+﻿@using Dominio
+@{
+    ViewBag.Title = "ComprasPorFecha";
+}
+
+<h2>Compras por Fecha</h2>
+
+<div style="padding:16px">
+    <h2>Compras</h2>
+    <table class="table">
+        <thead class="thead-dark">
+            <tr>
+                <th scope="col">Cedula</th>
+                <th scope="col">Costo</th>
+                <th scope="col">Paquete</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            @foreach (Compra unC in ViewBag.comprasFecha)
+            {
+                <tr>
+                    <td>@unC.Usuario.Cedula</td>
+                    <td>@unC.Total()</td>
+                    @foreach (Paquete unP in unC.Paquete)
+                    {
+                        <td>@unP.Nombre</td>
+                    }
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+<form action="/usuario/operador">
+    <button class="btn btn-secondary" style="margin:5px" type="submit">Volver</button>
+</form>
+

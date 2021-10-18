@@ -1,0 +1,41 @@
+﻿@using Dominio
+@{
+    ViewBag.Title = "BuscarCanal";
+}
+
+<h2>Lista de paquete(s) que contiene @ViewBag.nombreCanal</h2>
+
+<div style="padding:16px">
+
+    @if (ViewBag.Mensaje != null)
+    {
+        <div class="alert alert-danger">
+            @ViewBag.Mensaje
+        </div>
+    }
+
+
+    <table class="table">
+        <thead class="thead-dark">
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Paquete</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (Paquete unP in ViewBag.paquetesConCanales)
+            {
+                <tr>
+                    <td>@unP.Id</td>
+                    <td>@unP.Nombre </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+</div>
+
+<form action="/usuario/operador">
+    <button class="btn btn-secondary" style="margin:5px" type="submit">Volver</button>
+</form>
+
