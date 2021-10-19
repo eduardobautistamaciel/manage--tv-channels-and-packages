@@ -29,3 +29,14 @@ En cualquier momento el cliente puede cancelar la suscripción al paquete.
     - Dado el nombre de un canal obtener todos los paquetes que la incluyen.
     - Obtener lista de clientes que tengan compras cuyo vencimiento sea en los próximos 30 días o menos.
     - Obtener los paquetes de mayor valor. En caso de empate mostar todos los empatados.
+
+![Screenshot1](https://user-images.githubusercontent.com/64867705/137967186-5fd80811-8fe2-452a-a7b1-01796ef104ec.JPG)
+---
+![Screenshot2](https://user-images.githubusercontent.com/64867705/137967190-dd78a14f-4e86-4185-ac47-28a4337366f8.JPG)
+---
+![Screenshot3](https://user-images.githubusercontent.com/64867705/137967191-259b5cc5-08a9-44a6-9da6-aee1a964089e.JPG)
+---
+![Screenshot4](https://user-images.githubusercontent.com/64867705/137967194-33fdfd02-2978-4d2c-9c59-1a9473fcd816.JPG)
+---
+![Screenshot5](https://user-images.githubusercontent.com/64867705/137967197-fdaa1c88-2383-4234-8f0d-3b4b97edc558.JPG)
+
