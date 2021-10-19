@@ -26,6 +26,6 @@ En cualquier momento el cliente puede cancelar la suscripción al paquete.
 - Visualizar todas las compras realizadas entre dos fechas y el costo total de ellas.
 - Visualizar todos los clientes. Se mostrarán ordenados por apellido ascendentemente, y en caso de que haya más de un cliente con el mismo apellido se mostrarán ordenados por nombre ascendentemente.
 - Estadísticas:
-o Dado el nombre de un canal obtener todos los paquetes que la incluyen.
-o Obtener lista de clientes que tengan compras cuyo vencimiento sea en los próximos 30 días o menos.
-o Obtener los paquetes de mayor valor. En caso de empate mostar todos los empatados.
+-- Dado el nombre de un canal obtener todos los paquetes que la incluyen.
+-- Obtener lista de clientes que tengan compras cuyo vencimiento sea en los próximos 30 días o menos.
+-- Obtener los paquetes de mayor valor. En caso de empate mostar todos los empatados.
